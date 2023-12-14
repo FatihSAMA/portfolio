@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+    html{
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+        /* overflow-x: hidden; */
+        
+    }
+
+    section{
+        min-height: 100vh;
+    } 
+}
+
+@layer components {
+    .wrapper{
+        @apply w-[94%] max-w-7xl mx-auto  
+    }
+
+
+}
