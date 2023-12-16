@@ -28,7 +28,7 @@ export default function Hero(){
     
 
     return(
-        <section className=" flex items-center justify-center gap-20 min-h-hero ">
+        <section className=" flex max-md:flex-col items-center justify-center gap-20 min-h-hero max-md:gap-4 ">
             <motion.div
             initial={{ scale: 0, rotate: 30, x : "-50%"}}
             animate={{ rotate : 0, scale: 1, x : 0 }}
@@ -48,10 +48,10 @@ export default function Hero(){
                 stiffness: 260,
                 damping: 20
             }}
-            className="  flex flex-col gap-10 items-start">
+            className="  flex flex-col gap-10 items-start max-md:wrapper max-md:gap-8  ">
                 <div>
-                    <h1 className=" font-shadows text-8xl">Fatih Kabul</h1>
-                    <h2 className=" text-4xl text-main" >
+                    <h1 className=" font-shadows text-8xl max-md:text-7xl">Fatih Kabul</h1>
+                    <h2 className=" text-4xl text-main max-md:text-3xl " >
                         <span ref={type}></span>
                     </h2>
                 </div>

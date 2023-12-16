@@ -35,7 +35,7 @@ export default function Navbar(){
           }}
         className="  text-dark wrapper flex items-center justify-between h-[80px] ">
             <span className=" font-caveat text-[32px] ">
-                <a href="#">
+                <a href="/">
                     fk
                 </a>
             </span>
@@ -44,7 +44,7 @@ export default function Navbar(){
             variants={container}
             initial="hidden"
             animate="visible"
-            className="text-base flex gap-16">
+            className="text-base flex gap-16 max-md:hidden">
                 <motion.li
                 variants={item}
                 >

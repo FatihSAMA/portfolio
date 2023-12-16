@@ -12,21 +12,21 @@ export default function Contact(){
         >
             
             <div className="relative w-full h-fit">
-                <h2 className="text-5xl text-center text-dark font-bold ">
-                    Thanks for Scrolling
-                </h2>
+                <div className=" flex justify-center">
+                    <h2 className="text-5xl bg-light text-dark font-bold max-md:text-xl max-md:px-3  ">
+                        Thanks for Scrolling
+                    </h2>
+                </div>
                 
-                <motion.h3 
-                initial={{x : "-100%"}}
-                whileInView={{ x : "40%"}}
-                transition={{
-                    duration : .5,
-                    delay : .2
+                <h3 
+
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 text-9xl text-[rgba(86,85,100,.2)] font-bold max-md:text-6xl w-fit "
+                style={{
+                    whiteSpace : "nowrap",
                 }}
-                className="absolute -z-10 text-9xl text-[rgba(86,85,100,.2)] font-bold -top-10 "
                 >
                     CONTACT ME
-                </motion.h3>
+                </h3>
                 
             </div>
             

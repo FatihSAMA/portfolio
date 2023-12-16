@@ -11,7 +11,7 @@ export default function About(){
     const xPosition = useTransform(scrollYProgress, [0, 1], ["-100%", "700%"])
 
     return(
-        <section id="about" className=" flex flex-col items-center justify-center gap-20 min-h-screen overflow-x-hidden ">
+        <section id="about" className=" flex flex-col items-center justify-center gap-32 min-h-screen overflow-x-hidden ">
             
             <div className="relative w-full">
                 <h2 className="text-5xl text-center text-dark font-bold ">
@@ -25,10 +25,10 @@ export default function About(){
                 style={{
                     x : xPosition
                 }}
-                className=" -z-10 text-9xl text-[rgba(86,85,100,.2)] font-bold absolute -top-10 wrapper ">WHO AM I?</motion.h3>
+                className=" -z-10 text-9xl text-[rgba(86,85,100,.2)] font-bold absolute -top-10 wrapper max-md:-top-[100px] ">WHO AM I?</motion.h3>
             </div>
             
-            <p className=" text-lg text-dark max-w-2xl text-justify">
+            <p className=" text-lg text-dark max-w-2xl text-justify wrapper">
                 My name is Fatih and I am a Web Developer and also UI/UX Designer. I work as a Frontend Developer and I am comfortable working with HTML, CSS, Bootstrap, Tailwind, Javascript, Node JS and React. I enjoy experimenting with new technologies.
             </p>
         </section>
