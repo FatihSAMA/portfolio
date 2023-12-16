@@ -19,21 +19,26 @@ const HorizontalScrollCarousel = () => {
 
     const x = useTransform(scrollYProgress, [
         0, 1
-    ], ["1%", "-70%"])
+    ], ["1%", "-85%"])
 
     return (
-        <section id="#works" ref={targetRef} className="relative h-[300vh] bg-dark ">
+        <section id="work" ref={targetRef} className="relative h-[300vh] bg-dark ">
+
+            <h2 className="text-5xl pt-16 pl-8 text-light font-bold selection:text-dark">Latest Works</h2>
+
             <div className="sticky top-0 flex h-screen items-center overflow-hidden">
                 <motion.div
                     style={{
                         x
                     }}
-                    className="flex gap-4">
+                    className="flex gap-16">
                     {
                         cards.map((card) => (
                             <Card card={card} key={card.id} />
                         ))
                     }
+
+
                 </motion.div>
             </div>
         </section>
@@ -44,7 +49,7 @@ const Card = ({ card }) => {
     return (
       <div
         key={card.id}
-        className="group relative h-[500px] w-[700px] overflow-hidden rounded-2xl"
+        className="group relative h-[500px] w-[800px] overflow-hidden rounded-2xl"
       >
         <div
           style={{
@@ -54,9 +59,9 @@ const Card = ({ card }) => {
           }}
           className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
         ></div>
-        <button className=" bg-dark absolute z-10 right-3 bottom-3 rounded-2xl p-4 hover:bg-hover hover:scale-110 transition-all  ">
+        <a className=" bg-dark absolute z-10 right-3 bottom-3 rounded-2xl p-4 hover:bg-hover hover:scale-110 transition-all  " href={card.url} target="_blankw" >
             <img src={images.eye} alt="" />
-        </button>
+        </a>
       </div>
     );
   };

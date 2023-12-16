@@ -48,7 +48,7 @@ export default function Navbar(){
                 <motion.li
                 variants={item}
                 >
-                    <a href="#" className="hover:text-hover transition-colors">Home</a>
+                    <a href="/" className="hover:text-hover transition-colors">Home</a>
                 </motion.li>
 
                 <motion.li

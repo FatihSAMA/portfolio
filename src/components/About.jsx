@@ -1,20 +1,17 @@
 import { motion, useScroll, useTransform } from "framer-motion"
-import { useRef } from "react"
 
 
 export default function About(){
 
-    const ref = useRef()
 
     const {scrollYProgress} = useScroll({
-        target : ref,
         offset : ["start start", "end start"]
     })
 
-    const xPosition = useTransform(scrollYProgress, [0, 1], ["-100%", "450%"])
+    const xPosition = useTransform(scrollYProgress, [0, 1], ["-100%", "700%"])
 
     return(
-        <section id="#about" className=" flex flex-col items-center justify-center gap-20 min-h-screen overflow-x-hidden ">
+        <section id="about" className=" flex flex-col items-center justify-center gap-20 min-h-screen overflow-x-hidden ">
             
             <div className="relative w-full">
                 <h2 className="text-5xl text-center text-dark font-bold ">
