@@ -5,6 +5,7 @@ import portfolio from '../assets/images/portfolio.jpg'
 import seta from '../assets/images/seta.jpg'
 import toygar from '../assets/images/toygar.jpg'
 import eye from '../assets/images/eye.svg'
+import bigarson from '../assets/images/bigarson.png'
 
 
 export const images = {
@@ -15,5 +16,6 @@ export const images = {
     seta,
     toygar,
     eye,
-        
+    bigarson,
+     
 }
