@@ -1,6 +1,7 @@
 import { images } from "~/utils/images"
 import { motion } from "framer-motion"
 import { useRef } from "react"
+import cards from "~/utils/cards"
 
 
 const container = {
@@ -76,34 +77,5 @@ const Card = ({ card }) => {
     );
   };
 
-
-const cards = [
-    {
-        url : "https://www.behance.net/gallery/185668145/Rafazu-Agency-Website-Design",
-        image : images.portfolio,
-        id : 1
-    },
-    {
-        url : "https://www.behance.net/gallery/185668145/Rafazu-Agency-Website-Design",
-        image : images.seta,
-        id : 2
-    },
-    {
-        url : "https://www.behance.net/gallery/185668145/Rafazu-Agency-Website-Design",
-        image : images.herdemney,
-        id : 3
-    },
-    {
-        url : "https://www.behance.net/gallery/185668145/Rafazu-Agency-Website-Design",
-        image : images.nokta,
-        id : 4
-    },
-    {
-        url : "https://www.behance.net/gallery/185668145/Rafazu-Agency-Website-Design",
-        image : images.toygar,
-        id : 5
-    },
-    
-]
 
 
