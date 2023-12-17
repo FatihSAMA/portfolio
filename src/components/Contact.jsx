@@ -13,7 +13,7 @@ export default function Contact(){
             
             <div className="relative w-full h-fit">
                 <div className=" flex justify-center">
-                    <h2 className="text-5xl bg-light text-dark font-bold max-md:text-xl max-md:px-3  ">
+                    <h2 className="text-5xl text-dark font-bold max-md:text-xl">
                         Thanks for Scrolling
                     </h2>
                 </div>

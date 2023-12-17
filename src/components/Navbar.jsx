@@ -33,7 +33,7 @@ export default function Navbar(){
         transition={{
             duration : .4
           }}
-        className="  text-dark wrapper flex items-center justify-between h-[80px] ">
+        className="  text-dark wrapper flex items-center justify-between h-[80px] max-md:h-[40px] ">
             <span className=" font-caveat text-[32px] ">
                 <a href="/">
                     fk

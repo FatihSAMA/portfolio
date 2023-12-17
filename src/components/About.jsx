@@ -8,10 +8,10 @@ export default function About(){
         offset : ["start start", "end start"]
     })
 
-    const xPosition = useTransform(scrollYProgress, [0, 1], ["-100%", "700%"])
+    const xPosition = useTransform(scrollYProgress, [0, 1], ["-100%", "600%"])
 
     return(
-        <section id="about" className=" flex flex-col items-center justify-center gap-32 min-h-screen overflow-x-hidden ">
+        <section id="about" className=" flex flex-col items-center justify-center gap-32 min-h-screen overflow-x-hidden max-md:mt-24 ">
             
             <div className="relative w-full">
                 <h2 className="text-5xl text-center text-dark font-bold ">
@@ -29,7 +29,7 @@ export default function About(){
             </div>
             
             <p className=" text-lg text-dark max-w-2xl text-justify wrapper">
-                My name is Fatih and I am a Web Developer and also UI/UX Designer. I work as a Frontend Developer and I am comfortable working with HTML, CSS, Bootstrap, Tailwind, Javascript, Node JS and React. I enjoy experimenting with new technologies.
+                Hello, I'm an innovative Web Developer and UI/UX Designer with a focus on Frontend Development. Proficient in HTML, CSS, Bootstrap, Tailwind, Javascript, Node JS, and React, I thrive on sculpting captivating digital experiences. Embracing a passion for exploring emerging technologies, I am dedicated to pushing boundaries and crafting the future of web development.
             </p>
         </section>
     )

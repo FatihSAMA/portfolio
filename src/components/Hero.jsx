@@ -28,7 +28,7 @@ export default function Hero(){
     
 
     return(
-        <section className=" flex max-md:flex-col items-center justify-center gap-20 min-h-hero max-md:gap-4 ">
+        <section className=" flex max-md:flex-col items-center justify-center md:gap-20 min-h-hero ">
             <motion.div
             initial={{ scale: 0, rotate: 30, x : "-50%"}}
             animate={{ rotate : 0, scale: 1, x : 0 }}
@@ -56,7 +56,7 @@ export default function Hero(){
                     </h2>
                 </div>
                 <p className=" max-w-md">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, alias at doloribus cum enim odio dolorum aliquid, maxime 
+                    Hi, I'm a web developer and UI/UX designer. I'm as passionate about coding as I am about aesthetics. I enjoy creating user-friendly and impactful digital experiences. Take a look below to learn more about me.
                 </p>
                 <a href="#contact" className=" bg-dark text-light px-[50px] py-5 rounded-[20px] hover:bg-hover transition-all hover:scale-105 ">
                     Get in touch
