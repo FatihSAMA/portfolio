@@ -71,7 +71,7 @@ const icons = [
             
         />
         </svg>,
-        url : "https://www.linkedin.com/in/fatihkabul/"
+        url : "https://dribbble.com/fatihkabul"
     },
     {
         svg : <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 24 24">
@@ -82,7 +82,7 @@ const icons = [
             
         />
         </svg>,
-        url : "https://www.linkedin.com/in/fatihkabul/"
+        url : "https://www.instagram.com/fatih_kbl/"
     },
     {
         svg : <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 24 24">
@@ -93,7 +93,7 @@ const icons = [
             
         />
         </svg>,
-        url : "https://www.linkedin.com/in/fatihkabul/"
+        url : "https://www.behance.net/fatihkabul"
     },
     {
         svg : <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 24 24">
@@ -104,7 +104,7 @@ const icons = [
             
         />
         </svg>,
-        url : "https://www.linkedin.com/in/fatihkabul/"
+        url : "https://github.com/FatihSAMA"
     },
 ]
 
