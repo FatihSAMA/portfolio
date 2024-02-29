@@ -5,8 +5,6 @@ import { images } from "~/utils/images"
 
 export default function Works(){
 
-
-
     return(
         
         <HorizontalScrollCarousel />
@@ -20,7 +18,7 @@ const HorizontalScrollCarousel = () => {
 
     const x = useTransform(scrollYProgress, [
         0, 1
-    ], ["1%", "-85%"])
+    ], ["10%", "-85%"])
 
     return (
         <section id="work" ref={targetRef} className="relative h-[300vh] bg-dark ">
@@ -66,8 +64,3 @@ const Card = ({ card }) => {
       </div>
     );
   };
-
-
-
-
-

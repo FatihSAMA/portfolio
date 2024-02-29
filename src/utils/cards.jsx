@@ -2,36 +2,52 @@ import { images } from "~/utils/images"
 
 const cards = [
     {
-        url : "https://www.behance.net/gallery/185668145/Rafazu-Agency-Website-Design",
+        url : "https://rafazu.com",
         image : images.portfolio,
         id : 1
     },
     {
-        url : "https://www.behance.net/gallery/185945985/Seta-Fabrics-Website",
-        image : images.seta,
+        url : "https://www.behance.net/gallery/192021577/PIFM-UIUX-Design",
+        image : images.pifm,
         id : 2
     },
     {
-        url : "https://www.behance.net/gallery/185943627/HerDem-Ney-Website",
-        image : images.herdemney,
+        url : "https://midnightservice.ch",
+        image : images.midnight,
         id : 3
-    },
-    {
-        url : "https://www.behance.net/gallery/185945519/Nokta-Design-Website",
-        image : images.nokta,
-        id : 4
-    },
-    {
-        url : "https://www.behance.net/gallery/185668939/Website-Design-for-Toygar-Agency",
-        image : images.toygar,
-        id : 5
     },
     {
         url : "https://www.behance.net/gallery/186958701/Restaurant-Management-System",
         image : images.bigarson,
+        id : 4
+    }, 
+    {
+        url : "https://www.behance.net/gallery/185945985/Seta-Fabrics-Website",
+        image : images.seta,
+        id : 5
+    },
+    {
+        url : "https://toygarreklamajansi.com.tr",
+        image : images.toygar,
         id : 6
     },
-    
+    {
+        url : "https://herdemney.com",
+        image : images.herdemney,
+        id : 7
+    },
+    {
+        url : "https://ekolcelikraf.com",
+        image : images.ekol_celik_raf,
+        id : 8
+    },
+    {
+        url : "https://noktadesign.net",
+        image : images.nokta,
+        id : 9
+    },
+
+
 ]
 
 

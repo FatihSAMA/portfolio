@@ -11,16 +11,20 @@ const container = {
       scale: 1,
       transition: {
         delayChildren: 0.5,
-        staggerChildren: 0.7
+        staggerChildren: 0.5
       }
     }
   }
     
   const item = {
-    hidden: { y: 20, opacity: 0 },
+    hidden: { x: "-100%", opacity: 0 },
     visible: {
-      y: 0,
-      opacity: 1
+      x: 0,
+      opacity: 1,
+      transition : {
+        delay : .3,
+        type: "spring", stiffness: 100
+      }
     }
   }
 
@@ -37,10 +41,10 @@ export default function MobileWorks(){
 
             <div className=" w-full h-fit py-16">
                 <motion.div
-                variants={container}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once : true }}
+                // variants={container}
+                // initial="hidden"
+                // whileInView="visible"
+                // viewport={{ once : true }}
                 
                     className="flex flex-col items-center justify-center gap-16">
                     {
@@ -63,6 +67,9 @@ const Card = ({ card }) => {
     return (
       <motion.div
         variants={item}
+        initial="hidden"
+        whileInView="visible"
+        // viewport={{ once : true }}
         className="group relative w-[90%] min-h-[200px] h-[300px] rounded-lg"
         style={{
             backgroundImage: `url(${card.image})`,
